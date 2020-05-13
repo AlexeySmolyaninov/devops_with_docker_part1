@@ -1,0 +1,5 @@
+BUild image with the tag "docker-clock" -> docker build -t docker-clock .
+
+To view different flags with which an image can be run simply run command -> docker run docker-clock
+
+If you would like to enable clock use flags -c [time] or --clock [time] -> docker run -i docker-clock -c
